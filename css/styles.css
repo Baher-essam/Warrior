@@ -1,0 +1,13 @@
+:root{
+    /*color*/
+    --primary-background1: #1F1F1F;
+    --primary-background2: #313131;
+    --primary-color1: #ff;
+    --primary-color2: #E6D61A;
+    --primary-color3: #E6D61A;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
