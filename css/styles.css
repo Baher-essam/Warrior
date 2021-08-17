@@ -1,13 +1,44 @@
 :root{
     /*color*/
     --primary-background1: #1F1F1F;
-    --primary-background2: #313131;
-    --primary-color1: #ff;
+    --primary-color1: #fff;
     --primary-color2: #E6D61A;
-    --primary-color3: #E6D61A;
+    --primary-color3: #313131;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background: url('../images/main-background.svg') var(--primary-background1) ;
+    overflow: hidden;
+    position: relative;
+}
+#mainApp{
+    overflow: hidden;
+}
+div.man {
+    position: absolute;
+    top: -5px;
+    left: -19px;
+    width: 204px;
+    height: 143px;
+    background: url('../images/man.svg') transparent no-repeat center / contain;
+    background-size: contain; /*for safari*/
+}
+.back{
+    position: absolute;
+    z-index: -1;
+    top: -116px;
+    left: -165px;
+    width: 693px;
+    height: 351px;
+    background: url('../images/Path 158.svg') transparent no-repeat center / contain;
+    background-size: contain; /*for safari*/
+}
+.shield{
+    position: absolute;
+    top: -115px;
+    right: -190px;
 }
